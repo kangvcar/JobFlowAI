@@ -6,7 +6,7 @@
 
 ## Live
 
-📌 [https://jobflowai.vercel.app/](https://jobflowai.vercel.app/)
+📌 [https://jobflowai.vercel.app](https://jobflowai.vercel.app)
 
 ## Features
 
