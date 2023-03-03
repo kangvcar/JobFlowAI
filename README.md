@@ -23,13 +23,13 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/screenshot-astro2.jpg" alt="AstroWind Theme Screenshot">
+<img src="https://raw.githubusercontent.com/kangvcar/JobFlowAI/main/src/assets/images/screenshot.jpeg" alt="JobFlow AI Screenshot">
 
 <br>
 
 ## Acknowledgements
 
-Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/onwidget/astrowind/graphs/contributors).
+Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/kangvcar/JobFlowAI).
 
 ## License
 
