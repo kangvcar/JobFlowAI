@@ -1,7 +1,7 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: 'JobFlowAI',
+  name: 'JobFlow AI',
 
   origin: 'https://astrowind.vercel.app',
   basePathname: '/',
