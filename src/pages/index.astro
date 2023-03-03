@@ -24,22 +24,20 @@ const meta = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
-    callToAction2={{ text: 'Learn more', href: '#features' }}
+    callToAction={{ text: '生成职业画像', href: 'https://github.com/kangvcar/JobFlowAI' }}
+    callToAction2={{ text: 'AI 求职指导', href: '#features' }}
     image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden lg:inline">create your website <br class="2xl:hidden"/> with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 2.0</span> + Tailwind CSS
+        <span class="text-accent dark:text-white highlight">「JobFlow AI」</span> 是一个人工智能驱动的<span class="hidden lg:inline"><br class="2xl:hidden" /></span>
+      <span class="text-accent dark:text-white highlight"> 多数据源职业画像 <br /></span> 求职推荐平台
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 2.0 +
-        Tailwind CSS.</span
+        <span class="font-semibold">JobFlow AI</span> 是一个强大的职业发展平台，利用先进的人工智能和机器学习算法，从社交媒体、职业网络和招聘网站等多个数据源收集和分析数据。</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span> Suitable for Startups,
-      Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">JobFlow AI: 试试 AI 为您指路.</span> 为每个用户提供个性化的职业指导和求职推荐，帮助用户在快速变化的就业市场中保持竞争力，发现新的职业机会，实现职业发展的最大潜力。
     </Fragment>
   </Hero>
 
@@ -50,47 +48,47 @@ const meta = {
   <!-- Features Widget *************** -->
 
   <Features
-    highlight="Features"
-    title="What you get with AstroWind"
-    subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
+    highlight="仙人指路"
+    title="使用 JobFlow AI 可以获得什么?"
+    subtitle="为职业生涯打造个性化解决方案 —— 探索 JobFlow AI 的职业发展服务"
     items={[
       [
         {
-          title: 'Astro + Tailwind CSS Integration',
+          title: 'AI 职业规划 (AI Career Planning)',
           description:
-            'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+            '利用机器学习算法分析用户的职业历史、技能和兴趣等信息，生成个性化的职业画像，提供符合用户需求和潜力的职业发展建议，帮助用户做出更明智的职业决策。',
           icon: 'tabler:brand-tailwind',
         },
         {
-          title: 'Ready-to-use Components',
+          title: '职业学习平台 (Career Learning Hub)',
           description:
-            'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+            '利用职业画像分析用户的职业特征和潜力，推荐符合用户需求和兴趣的在线课程和培训资源，同时利用机器学习算法不断优化推荐结果，并根据用户的反馈和学习情况提供个性化的学习建议和支持。',
           icon: 'tabler:components',
         },
         {
-          title: 'Best Practices',
+          title: '职业画像分析 (Career Profile Analysis)',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+            '利用职业画像分析用户的职业历史、技能和兴趣等数据，生成个性化的职业画像，帮助用户了解自己的职业特征和潜力，提供更个性化的职业发展建议和支持，并为平台提供更精准和有效的数据分析和预测。',
           icon: 'tabler:list-check',
         },
       ],
       [
         {
-          title: 'Excellent Page Speed',
+          title: 'AI 求职辅导 (AI Job Coaching)',
           description:
-            'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+            '利用机器学习算法分析用户的简历和求职历史，为用户提供符合其需求和潜力的求职建议和技巧，并根据用户的反馈和求职情况提供个性化的求职支持和指导。',
           icon: 'tabler:rocket',
         },
         {
-          title: 'Search Engine Optimization (SEO)',
+          title: '职业社交网络 (Career Social Network)',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+            '利用职业画像分析用户的职业关系和社交活动，推荐符合用户需求和兴趣的职业导师和合作伙伴，同时提供职业交流和资源分享的平台，帮助用户建立有益的职业关系和合作伙伴。',
           icon: 'tabler:arrows-right-left',
         },
         {
-          title: 'Open to new ideas and contributions',
+          title: '智能职位匹配 (Intelligent Job Matching)',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+            '利用职业画像分析用户的职业特征和潜力，为用户提供符合其需求和兴趣的职位匹配和推荐，同时利用机器学习算法不断优化匹配算法和结果，提高匹配的准确性和效率。',
           icon: 'tabler:bulb',
         },
       ],
@@ -100,23 +98,23 @@ const meta = {
   <!-- Content Widget **************** -->
 
   <Content
-    highlight="Inside template"
-    title="And what's inside? ..."
+    highlight="天赋异禀"
+    title="JobFlow AI 的优势? ..."
     items={[
       {
-        title: 'Per ei quaeque sensibus',
+        title: '通过 AI 赋能',
         description:
-          'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
+          'JobFlow AI平台采用经过训练优化的人工智能算法，能够针对用户的职业背景和兴趣，快速分析、筛选和推荐最符合用户需求的职业发展方向和求职机会，大大提高了用户职业发展效率。',
       },
       {
-        title: 'Cu imperdiet posidonium sed',
+        title: '多数据源智能分析',
         description:
-          'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
+          'JobFlow AI平台可以结合多个数据源，包括社交媒体、职业网络和招聘网站等，采集和分析职业相关数据，从而提供更加准确和全面的职业发展指导和求职推荐。',
       },
       {
-        title: 'Nulla omittam sadipscing mel ne',
+        title: '高校精品课程整合',
         description:
-          'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
+          'JobFlow AI平台与多所高校合作，将其优秀的课程整合到平台中，涵盖技能培训、职业知识、创新创业和行业趋势等多个方面，为用户提供更加专业和可靠的职业发展支持。',
       },
     ]}
     image={{
@@ -125,9 +123,8 @@ const meta = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Ad vix debet docendi</h3>
-      Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod
-      tacimates.
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">JobFlow AI 为你赋能</h3>
+      JobFlow AI平台利用先进的人工智能和机器学习算法，为用户提供个性化的职业指导和求职推荐，帮助用户实现职业发展的最大潜力
     </Fragment>
   </Content>
 
@@ -138,22 +135,31 @@ const meta = {
     isAfterContent
     items={[
       {
-        title: 'Per ei quaeque sensibus',
+        title: '个性化职业指导：根据用户需求提供职业建议。',
       },
       {
-        title: 'Cu imperdiet posidonium sed',
+        title: 'AI智能推荐：为用户精准推荐职业机会。',
       },
       {
-        title: 'Nulla omittam sadipscing mel ne',
+        title: '优质学习资源：提供高质量职业培训。',
       },
       {
-        title: 'Per ei quaeque sensibus',
+        title: '数据安全保障：保障用户数据安全。',
       },
       {
-        title: 'Cu imperdiet posidonium sed',
+        title: '多维度职业分析：多维度数据分析职业发展。',
       },
       {
-        title: 'Nulla omittam sadipscing mel ne',
+        title: '职业测试评估：测试和评估用户职业兴趣和能力。',
+      },
+      {
+        title: '职业社交网络：扩大用户职业人脉。',
+      },
+      {
+        title: '实时职业动态：提供实时职业资讯和建议。',
+      },
+      {
+        title: '专业咨询服务：提供专业的职业咨询和指导。',
       },
     ]}
     image={{
@@ -165,28 +171,30 @@ const meta = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Get your dream website up and running in no time with AstroWind."
+    title="探索您的职业未来，与JobFlow AI一起开启您的职业之旅！"
     items={[
       {
-        title: 'Step 1: <span class="font-medium">Download</span>',
+        title: 'Step 1: <span class="font-medium">登录并上传个人简历</span>',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula.',
+          '用户在JobFlow AI平台注册账号并登录后，可以填写个人资料和上传个人简历PDF文件，以便平台了解用户的教育背景、工作经历、技能和成就等信息，为用户提供更个性化的职业服务。',
         icon: 'tabler:package',
       },
       {
-        title: 'Step 2: <span class="font-medium">Add content</em>',
+        title: 'Step 2: <span class="font-medium">连接互联网平台并获取数据（可选）</em>',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+          '用户可以连接各大互联网平台（如LinkedIn、Indeed等）获取个人数据，以便平台从多个数据源分析用户的职业历史、技能和兴趣等信息，并生成个性化的职业画像。',
         icon: 'tabler:letter-case',
       },
       {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
+        title: 'Step 3: <span class="font-medium">生成职业画像</span>',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+          '平台利用机器学习算法分析用户的职业历史、技能和兴趣等信息，生成个性化的职业画像，帮助用户了解自己的职业特征和潜力，并为用户提供符合其需求和兴趣的职业发展建议和支持。',
         icon: 'tabler:paint',
       },
       {
-        title: 'Ready!',
+        title: 'Step 4: <span class="font-medium">获得AI职业规划服务</span>',
+        description:
+          '基于用户的职业画像和职业规划目标，平台为用户提供个性化的AI职业规划服务，帮助用户制定职业规划方案、解决职业发展中的问题和挑战，以及发现更多的职业机会。',
         icon: 'tabler:check',
       },
     ]}
@@ -199,62 +207,62 @@ const meta = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    highlight="Components"
+    title="来自 JobFlow AI 的用户评价"
+    subtitle="以下是来自JobFlow AI平台用户的评价，他们分享了使用平台后的职业发展变化和收获，展现了平台为用户带来的实际效益。"
+    highlight="好评如潮"
     items={[
       {
-        title: 'Headers',
+        title: '中国工程院院士「沈昌祥」',
         description:
-          'In general, Headers contain information that makes it easier for visitors to interact with the website.',
+          'JobFlow AI平台提供的职业建议和求职推荐非常有价值，可以帮助他更好地了解行业发展趋势和机会，为自己的职业发展做出更加明智的决策。平台的专业性和个性化服务也让他非常满意。他强烈推荐使用JobFlow AI平台的人士，相信平台可以为更多人带来实际的职业发展价值。',
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Heros',
+        title: '长江学者「韩军伟」',
         description:
-          'If you want your website to get more than its fair share of visitors, the Hero section needs to be stellar.',
+          '我非常认可JobFlow AI平台的产品设计和领域覆盖。平台不仅提供了全面、专业和个性化的职业指导和培训，还整合了多个数据源，涵盖了职业知识、技能培训、创新创业和行业趋势等多个方面，非常适合不同职业阶段和不同行业的人士使用。我相信，JobFlow AI平台将为更多的用户带来职业发展的机遇和成功。',
         icon: 'flat-color-icons:gallery',
       },
       {
-        title: 'Features',
+        title: '教育行业高管「李伟光」',
         description:
-          'Display your product in action and how the Features actually create a solution for your target customer.',
+          '我非常欣赏JobFlow AI平台的使用AI驱动的特点。平台利用先进的人工智能算法，快速分析用户的职业背景和需求，提供个性化的职业指导和求职推荐，同时也整合了高校精品课程和职业专家资源，为用户提供更加全面和专业的职业发展支持。这些特点不仅能够提高用户的职业竞争力，也能够对整个教育行业产生积极的推动作用。',
         icon: 'flat-color-icons:todo-list',
       },
       {
-        title: 'Content',
+        title: '广州劲源科技「黄军兆」',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+          'JobFlow AI平台为广州劲源科技带来了极大的价值，平台提供了职业发展和培训支持，帮助员工提升职业能力和技能，同时也为企业提供了更多优秀的人才和职业机会。',
         icon: 'flat-color-icons:document',
       },
       {
-        title: 'Call-to-Action',
+        title: '高校本科生「莉娜」',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+          'JobFlow AI平台为我提供了非常实用和有用的职业建议和求职推荐，帮助我更好地了解职业市场和行业趋势，为自己的职业发展做出更加明智的选择。',
         icon: 'flat-color-icons:advertising',
       },
       {
-        title: 'Pricing',
+        title: '高校本科生「周晓宇」',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+          '使用JobFlow AI平台后，我发现自己对职业发展有了更加清晰和全面的认识，同时也掌握了更多职业技能和知识，为自己的职业发展打下了坚实的基础。',
         icon: 'flat-color-icons:currency-exchange',
       },
       {
-        title: 'Testimonial',
+        title: '高校研究生「李志豪」',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+          'JobFlow AI平台为我提供了很多实用和专业的职业指导和培训资源，让我更加自信和有准备地面对职业挑战和机会。',
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: 'Contact',
+        title: '高校研究生「陈永杰」',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+          '使用JobFlow AI平台后，我发现自己的职业发展和求职方向更加清晰和明确，同时也获得了很多新的职业机会和行业信息。',
         icon: 'flat-color-icons:business-contact',
       },
       {
-        title: 'Footers',
+        title: '职场人士「张雅峰」',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+          'JobFlow AI平台为我提供了更多职业发展的可能性和机会，帮助我更好地了解职业市场和行业趋势，拓展了自己的职业视野。为对平台的个性化服务和专业性非常满意，认为平台是职场人士不可或缺的职业发展工具。',
         icon: 'icon-park:page-template',
       },
     ]}
@@ -263,58 +271,56 @@ const meta = {
   <!-- HighlightedPosts Widget ******* -->
 
   <LatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-			Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-			Astro is a very interesting technology. Thanks.
+    title="在我们的博客中找到更多内容"
+    information={`JJobFlow AI平台的博客栏目为用户提供最新职业发展进展、研究成果和技巧分享，旨在帮助用户了解职业市场趋势、求职技巧和职业规划策略，提高职业竞争力。博客文章由专业人员编写，包括平台发展和优势，为用户提供更好的用户体验。博客栏目提供全面、有价值的职业发展资讯和服务，为用户打造智能化、人性化的职业发展之路。
 		`}
     postIds={[
-      'get-started-website-with-astro-tailwind-css.md',
-      'how-to-customize-astrowind-to-your-brand.md',
-      'useful-resources-to-create-websites.md',
-      'astrowind-template-in-depth.md',
+      'gwhy-build-the-jobflow-ai-platform.md',
+      'how-to-win-in-job-search-with-ai.md',
+      'through-integrating-higher-education-boutique-courses-to-empower-jobflow-ai-platform.md',
+      'how-to-generate-career-profile-through-multiple-data-sources.md',
     ]}
   />
 
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
+    title="常见问题"
+    subtitle="提供了针对平台使用和职业发展的常见问题和解答，涵盖了平台功能、数据隐私、职业发展等多个方面的问题，可以帮助用户快速解决遇到的问题，提高使用体验。"
     highlight="FAQs"
     items={[
       [
         {
-          question: 'What do I need to start?',
+          question: '如何使用JobFlow AI平台？',
           answer:
-            'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
+            '使用JobFlow AI平台非常简单。用户只需要在平台上注册账号，并填写相关的职业信息和兴趣，即可开始使用平台提供的职业建议和求职推荐等服务。平台还提供了简单易懂的用户指南和视频教程，帮助用户更好地了解和使用平台。',
         },
         {
-          question: 'How to install the Astro + Tailwind CSS template?',
+          question: '是否需要付费使用JobFlow AI平台？',
           answer:
-            "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.",
+            "JobFlow AI平台提供免费和付费的服务，用户可以根据自己的需求选择适合的服务。免费的服务包括基本的职业建议和求职推荐，而付费的服务则提供更加个性化和专业的职业指导和培训。具体来说，平台的付费服务包括个人职业咨询、行业分析报告、职业培训课程等。",
         },
         {
-          question: "What's something that you don't understand?",
+          question: "JobFlow AI平台如何保护我的数据隐私？",
           answer:
-            "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
+            "JobFlow AI平台非常重视用户的数据隐私，采取了多种措施来保护用户的数据安全。首先，平台只收集用户必要的个人信息，如职业背景和职业兴趣等，以保证用户的隐私安全。其次，平台采用了先进的数据加密和安全措施，保障用户数据的安全性。最后，平台不会将用户的数据分享给任何第三方机构，保证用户数据的机密性。",
         },
       ],
       [
         {
-          question: "What's an example of when you changed your mind?",
+          question: "如何获得更好的职业建议和推荐？",
           answer:
-            "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+            "为了获得更好的职业建议和推荐，用户可以在平台上提供更多的个人信息和职业经验，例如教育背景、工作经历、技能等。此外，用户还可以在平台上参加相关的职业测试和调查，获取更加准确的职业建议和推荐。",
         },
         {
-          question: 'What is something that you would like to try again?',
+          question: '如何发现新的职业机会？',
           answer:
-            "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
+            "JobFlow AI平台可以帮助用户发现新的职业机会。用户可以通过平台上的职业分析和行业趋势分析了解不同职业领域和行业的发展趋势和机会，为自己的职业发展做出更加明智的决策。此外，平台还会根据用户的职业兴趣和经验推荐相关的职业机会和招聘信息。",
         },
         {
-          question: 'If you could only ask one question to each person you meet, what would that question be?',
+          question: '如何参加平台提供的职业培训课程？',
           answer:
-            "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+            "JobFlow AI平台提供了多种职业培训课程，用户可以根据自己的需要 选择适合的课程进行学习。用户可以在平台上浏览课程目录和课程介绍，选择自己感兴趣和需要的课程。一旦选择了课程，用户可以在线学习，并在平台上与其他学员交流和互动，分享学习心得和职业经验。平台还会根据用户的学习进度和表现，提供相应的学习支持和指导，帮助用户更好地掌握职业技能和知识。",
         },
       ],
     ]}
@@ -324,10 +330,10 @@ const meta = {
 
   <Stats
     items={[
-      { name: 'Downloads', value: '132K' },
-      { name: 'Stars', value: '24.8K' },
-      { name: 'Forks', value: '10.3K' },
-      { name: 'Users', value: '48.4K' },
+      { name: '注册用户', value: '1200个' },
+      { name: '生成职业画像', value: '3212次' },
+      { name: 'AI 咨询服务', value: '5800次' },
+      { name: '精品课程', value: '50门' },
     ]}
   />
 
@@ -335,18 +341,17 @@ const meta = {
 
   <CallToAction
     callToAction={{
-      text: 'Get template',
-      href: 'https://github.com/onwidget/astrowind',
+      text: '获取 JobFlow AI 职业指导',
+      href: 'https://github.com/kangvcar/JobFlowAI',
       icon: 'tabler:download',
     }}
   >
     <Fragment slot="title">
-      Astro + <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      JobFlow<br class="block sm:hidden" /><span class="sm:whitespace-nowrap"> + AI</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+        为职业生涯打造个性化解决方案 <br class="hidden md:inline" />—— 探索 JobFlow AI 的职业发展服务
     </Fragment>
   </CallToAction>
 </Layout>

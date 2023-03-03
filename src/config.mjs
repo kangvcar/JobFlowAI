@@ -1,15 +1,15 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: 'AstroWind',
+  name: 'JobFlowAI',
 
   origin: 'https://astrowind.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
+  title: 'JobFlow AI - AI-powered career guidance and job recommendation platform with multiple data sources.',
   description:
-    '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
+    '🚀 JobFlow AI is a powerful platform that uses advanced artificial intelligence and machine learning algorithms to help users navigate every stage of their career development. By collecting and analyzing data from multiple sources, including social media, professional networks, and job sites, JobFlow AI provides personalized career guidance and job recommendations based on each user\'s unique skills, interests, and goals. With JobFlow AI, users can stay ahead of the competition, discover new career opportunities, and achieve their full potential in today\'s fast-paced and ever-changing job market.',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"

@@ -1,120 +1,37 @@
 ---
-title: 'Terms and Conditions'
+title: '条款和条件'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: January 06, 2023
+最后更新：2023 年 3 月 4 日
 
-Please read these terms and conditions carefully before using Our Service.
+在使用我们的服务之前，请仔细阅读这些条款和条件
 
-## Interpretation and Definitions
+## 条款和条件
 
-### Interpretation
+1. 使用条款：使用JobFlow AI平台的服务需要遵守本条款和条件。如果您不同意这些条款和条件，请勿使用平台。
+2. 账户：为了使用JobFlow AI平台，您需要创建一个账户并提供准确的个人信息。您必须对您的账户和密码保密，不能将其透露给第三方。
+3. 隐私：JobFlow AI平台非常重视用户的隐私，将尽力保护用户的个人信息和数据隐私。
+4. 费用：JobFlow AI平台的大部分服务是免费的，但部分高级服务可能需要付费。在使用这些服务前，需要确认并支付相关费用。
+5. 知识产权：JobFlow AI平台拥有所有的知识产权和所有权，包括软件、文档、图像、音频和其他内容。用户不能复制、修改、分发或传播这些内容。
+6. 免责声明：JobFlow AI平台不对任何因使用其服务而导致的损失、风险或责任负责。用户必须自行承担风险和责任。
+7. 修改：JobFlow AI平台有权随时修改这些条款和条件，并在平台上公布。用户需要定期查看这些条款和条件，以便了解任何更改。
+8. 终止：JobFlow AI平台有权随时终止或暂停用户的账户，而无需提供任何理由或事先通知。
+9. 适用法律：这些条款和条件受中华人民共和国法律管辖和解释。 服务细则：JobFlow AI平台的服务细则包括但不限于职业指导、求职推荐、技能培训、创新创业和行业趋势等方面。平台将根据用户的需求和职业背景，提供相应的服务支持和指导。
+10. 用户责任：用户需要保证提交的信息真实、准确和完整。用户需要承担其发布的内容的责任，不得发布违反法律法规和平台规定的内容。
+11. 禁止行为：用户不得利用JobFlow AI平台从事任何违法、欺诈、侵权、诽谤、淫秽等行为。用户也不得干扰平台的正常运作和其他用户的使用。
+12. 拒绝服务：JobFlow AI平台有权拒绝任何未经授权或未经批准的访问或使用。
+13. 可靠性：JobFlow AI平台将尽最大努力保证服务的可靠性和稳定性，但不保证服务将完全符合用户的需求和期望。
+14. 管辖法律：这些条款和条件受中华人民共和国法律管辖。如果存在任何争议或纠纷，应当由双方友好协商解决。如果协商不成，应当提交至有管辖权的人民法院处理。 平台内容：JobFlow AI平台上的所有内容仅供参考和学习目的，并不构成任何投资、财务、法律或其他方面的建议。用户需要自行判断和决定是否依赖这些内容。
+15. 第三方链接：JobFlow AI平台可能包含与第三方网站或资源的链接。这些链接仅作为方便用户获取更多信息，平台对这些链接的内容和准确性不负任何责任。
+16. 公告通知：JobFlow AI平台将通过电子邮件、平台公告或其他方式向用户发送重要通知和公告。用户需要确保提供的联系方式是准确和最新的。
+17. 版权投诉：JobFlow AI平台尊重他人的知识产权和版权，如发现任何侵权行为，请及时联系平台并提供相关证据。
+18. 可访问性：JobFlow AI平台致力于提供无障碍的服务，满足用户的多样化需求和特殊要求。
+19. 技术支持：JobFlow AI平台提供技术支持和帮助，帮助用户更好地使用平台的服务和功能。用户可以通过平台上的联系方式与支持团队联系。
+20. 其他规定：如果JobFlow AI平台的条款和条件中的任何部分被认定为无效或不可执行，该部分将被视为与其它条款和条件分离，不影响其余部分的有效性和可执行性。
 
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+以上是JobFlow AI平台的条款和条件，使用平台前，请务必仔细阅读和理解这些规定。
 
-### Definitions
+## 联系我们
 
-For the purposes of these Terms and Conditions:
-
-- **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
-
-- **Country** refers to: California, United States
-
-- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to AstroWind LLC, 1 Cupertino, CA 95014.
-
-- **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
-
-- **Service** refers to the Website.
-
-- **Terms and Conditions** (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement is a Demo.
-
-- **Third-party Social Media Service** means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.
-
-- **Website** refers to AstroWind, accessible from [https://astrowind.vercel.app](https://astrowind.vercel.app)
-
-- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
-
-## Acknowledgment
-
-These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.
-
-Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.
-
-By accessing or using the Service You agree to be bound by these Terms and Conditions. If You disagree with any part of these Terms and Conditions then You may not access the Service.
-
-You represent that you are over the age of 18\. The Company does not permit those under 18 to use the Service.
-
-Your access to and use of the Service is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the Website and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.
-
-## Links to Other Websites
-
-Our Service may contain links to third-party web sites or services that are not owned or controlled by the Company.
-
-The Company has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.
-
-We strongly advise You to read the terms and conditions and privacy policies of any third-party web sites or services that You visit.
-
-## Termination
-
-We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.
-
-Upon termination, Your right to use the Service will cease immediately.
-
-## Limitation of Liability
-
-Notwithstanding any damages that You might incur, the entire liability of the Company and any of its suppliers under any provision of this Terms and Your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by You through the Service or 100 USD if You haven't purchased anything through the Service.
-
-To the maximum extent permitted by applicable law, in no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, for business interruption, for personal injury, loss of privacy arising out of or in any way related to the use of or inability to use the Service, third-party software and/or third-party hardware used with the Service, or otherwise in connection with any provision of this Terms), even if the Company or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose.
-
-Some states do not allow the exclusion of implied warranties or limitation of liability for incidental or consequential damages, which means that some of the above limitations may not apply. In these states, each party's liability will be limited to the greatest extent permitted by law.
-
-## "AS IS" and "AS AVAILABLE" Disclaimer
-
-The Service is provided to You "AS IS" and "AS AVAILABLE" and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, the Company, on its own behalf and on behalf of its Affiliates and its and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the Service, including all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the foregoing, the Company provides no warranty or undertaking, and makes no representation of any kind that the Service will meet Your requirements, achieve any intended results, be compatible or work with any other software, applications, systems or services, operate without interruption, meet any performance or reliability standards or be error free or that any errors or defects can or will be corrected.
-
-Without limiting the foregoing, neither the Company nor any of the company's provider makes any representation or warranty of any kind, express or implied: (i) as to the operation or availability of the Service, or the information, content, and materials or products included thereon; (ii) that the Service will be uninterrupted or error-free; (iii) as to the accuracy, reliability, or currency of any information or content provided through the Service; or (iv) that the Service, its servers, the content, or e-mails sent from or on behalf of the Company are free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components.
-
-Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in such a case the exclusions and limitations set forth in this section shall be applied to the greatest extent enforceable under applicable law.
-
-## Governing Law
-
-The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.
-
-## Disputes Resolution
-
-If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company.
-
-## For European Union (EU) Users
-
-If You are a European Union consumer, you will benefit from any mandatory provisions of the law of the country in which you are resident in.
-
-## United States Legal Compliance
-
-You represent and warrant that (i) You are not located in a country that is subject to the United States government embargo, or that has been designated by the United States government as a "terrorist supporting" country, and (ii) You are not listed on any United States government list of prohibited or restricted parties.
-
-## Severability and Waiver
-
-### Severability
-
-If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.
-
-### Waiver
-
-Except as provided herein, the failure to exercise a right or to require performance of an obligation under these Terms shall not effect a party's ability to exercise such right or require such performance at any time thereafter nor shall the waiver of a breach constitute a waiver of any subsequent breach.
-
-## Translation Interpretation
-
-These Terms and Conditions may have been translated if We have made them available to You on our Service. You agree that the original English text shall prevail in the case of a dispute.
-
-## Changes to These Terms and Conditions
-
-We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.
-
-By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.
-
-## Contact Us
-
-If you have any questions about these Terms and Conditions, You can contact us:
-
-- By email: somecoolemail@domain.com
+如果您对本隐私政策有任何疑问或意见，或者需要更多信息，请随时联系我们的客服团队。
