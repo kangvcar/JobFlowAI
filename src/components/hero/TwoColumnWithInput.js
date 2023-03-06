@@ -8,7 +8,8 @@ import Header from "../headers/light.js";
 
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import DesignIllustration from "../../images/design-illustration-2.svg";
-import CustomersLogoStripImage from "../../images/customers-logo-strip.png";
+// import CustomersLogoStripImage from "../../images/customers-logo-strip.png";
+import CustomersLogoStripImage from "../../images/customers-logo-gpnu.png";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col lg:flex-row lg:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
@@ -46,36 +47,42 @@ const CustomersLogoStrip = styled.div`
 `;
 
 export default ({ roundedHeaderButton }) => {
-  return (
-    <>
-      <Header roundedHeaderButton={roundedHeaderButton} />
-      <Container>
-        <TwoColumn>
-          <LeftColumn>
-            <Heading>
-              Beautiful React Templates <span tw="text-primary-500">for you.</span>
-            </Heading>
-            <Paragraph>
-              Our templates are easy to setup, understand and customize. Fully modular components with a variety of
-              pages and components.
-            </Paragraph>
-            <Actions>
-              <input type="text" placeholder="Your E-mail Address" />
-              <button>Get Started</button>
-            </Actions>
-            <CustomersLogoStrip>
-              <p>Our TRUSTED Customers</p>
-              <img src={CustomersLogoStripImage} alt="Our Customers" />
-            </CustomersLogoStrip>
-          </LeftColumn>
-          <RightColumn>
-            <IllustrationContainer>
-              <img tw="min-w-0 w-full max-w-lg xl:max-w-3xl" src={DesignIllustration} alt="Design Illustration" />
-            </IllustrationContainer>
-          </RightColumn>
-        </TwoColumn>
-        <DecoratorBlob1 />
-      </Container>
-    </>
-  );
+    return (
+        <>
+            <Header roundedHeaderButton={roundedHeaderButton} />
+            <Container>
+                <TwoColumn>
+                    <LeftColumn>
+                        <Heading>
+                            <span tw="text-primary-500">「JobFlow AI」</span><br />
+                            人工智能驱动的<br />
+                            <span tw="text-primary-500">多数据源职业画像</span><br />
+                            职业发展平台
+                        </Heading>
+                        <Paragraph>
+                            利用先进的人工智能和机器学习算法，从社交媒体、职业网络和招聘网站等多个数据源收集和分析数据。
+                            为每个用户提供个性化的职业指导和求职推荐，帮助用户在快速变化的就业市场中保持竞争力，发现新的职业机会，实现职业发展的最大潜力。
+                        </Paragraph>
+                        <Actions>
+                            <button>生成职业画像</button>
+                        </Actions>
+                        <CustomersLogoStrip>
+                            <p>我们值得信赖的客户</p>
+                            <img src={CustomersLogoStripImage} alt="Our Customers" />
+                        </CustomersLogoStrip>
+                    </LeftColumn>
+                    <RightColumn>
+                        <IllustrationContainer>
+                            <img
+                                tw="min-w-0 w-full max-w-lg xl:max-w-3xl"
+                                src={DesignIllustration}
+                                alt="Design Illustration"
+                            />
+                        </IllustrationContainer>
+                    </RightColumn>
+                </TwoColumn>
+                <DecoratorBlob1 />
+            </Container>
+        </>
+    );
 };

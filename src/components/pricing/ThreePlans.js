@@ -21,8 +21,8 @@ const Plan = styled.div`
   }
 
   ${props =>
-    props.featured &&
-    css`
+        props.featured &&
+        css`
       background: rgb(100,21,255);
       background: linear-gradient(135deg, rgba(100,21,255,1) 0%, rgba(128,64,252,1) 100%);
 background: rgb(85,60,154);
@@ -83,87 +83,87 @@ const DecoratorBlob = styled(SvgDecoratorBlob)`
 
 
 export default ({
-  subheading = "Pricing",
-  heading = "Flexible Plans.",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  plans = null,
-  primaryButtonText = "Buy Now"
+    subheading = "Pricing",
+    heading = "Flexible Plans.",
+    description = "我们的定价方案基于对客户需求的深入了解和分析，结合平台的各项功能和服务，提供了三个定价方案，主要面向在校大学生、职场人士、初创企业。",
+    plans = null,
+    primaryButtonText = "立即订阅"
 }) => {
-  const defaultPlans = [
-    {
-      name: "Personal",
-      price: "$17.99",
-      duration: "Monthly",
-      mainFeature: "Suited for Personal Blogs",
-      features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"],
-    },
-    {
-      name: "Business",
-      price: "$37.99",
-      duration: "Monthly",
-      mainFeature: "Suited for Production Websites",
-      features: ["60 Templates", "8 Landing Pages", "22 Internal Pages", "Priority Assistance"],
-      featured: true,
-    },
-    {
-      name: "Enterprise",
-      price: "$57.99",
-      duration: "Monthly",
-      mainFeature: "Suited for Big Companies",
-      features: ["90 Templates", "9 Landing Pages", "37 Internal Pages", "Personal Assistance"],
-    },
-  ];
+    const defaultPlans = [
+        {
+            name: "Personal",
+            price: "$17.99",
+            duration: "Monthly",
+            mainFeature: "For Individuals",
+            features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"]
+        },
+        {
+            name: "Business",
+            price: "$37.99",
+            duration: "Monthly",
+            mainFeature: "For Small Businesses",
+            features: ["60 Templates", "15 Landing Pages", "22 Internal Pages", "Priority Assistance"],
+            featured: true
+        },
+        {
+            name: "Enterprise",
+            price: "$57.99",
+            duration: "Monthly",
+            mainFeature: "For Large Companies",
+            features: ["90 Templates", "27 Landing Pages", "37 Internal Pages", "Personal Assistance"]
+        }
+    ];
 
-  if (!plans) plans = defaultPlans;
+    if (!plans) plans = defaultPlans;
 
-  const highlightGradientsCss = [
-    css`
+    const highlightGradientsCss = [
+        css`
       background: rgb(56, 178, 172);
       background: linear-gradient(115deg, rgba(56, 178, 172, 1) 0%, rgba(129, 230, 217, 1) 100%);
     `,
-    css`
+        css`
       background: rgb(56, 178, 172);
       background-image: linear-gradient(115deg, #6415ff, #7431ff, #8244ff, #8e56ff, #9a66ff);
     `,
-    css`
+        css`
       background: rgb(245, 101, 101);
       background: linear-gradient(115deg, rgba(245, 101, 101, 1) 0%, rgba(254, 178, 178, 1) 100%);
     `
-  ];
+    ];
 
-  return (
-    <Container>
-      <ContentWithPaddingXl>
-        <HeaderContainer>
-          {subheading && <Subheading>{subheading}</Subheading>}
-          <Heading>{heading}</Heading>
-          {description && <Description>{description}</Description>}
-        </HeaderContainer>
-        <PlansContainer>
-          {plans.map((plan, index) => (
-            <Plan key={index} featured={plan.featured}>
-              {!plan.featured && <div className="planHighlight" css={highlightGradientsCss[index % highlightGradientsCss.length]} />}
-              <PlanHeader>
-                <span className="name">{plan.name}</span>
-                <span className="price">{plan.price}</span>
-                <span className="duration">{plan.duration}</span>
-              </PlanHeader>
-              <PlanFeatures>
-                <span className="feature mainFeature">{plan.mainFeature}</span>
-                {plan.features.map((feature, index) => (
-                  <span key={index} className="feature">
-                    {feature}
-                  </span>
-                ))}
-              </PlanFeatures>
-              <PlanAction>
-                <BuyNowButton css={!plan.featured && highlightGradientsCss[index]}>{primaryButtonText}</BuyNowButton>
-              </PlanAction>
-            </Plan>
-          ))}
-          <DecoratorBlob/>
-        </PlansContainer>
-      </ContentWithPaddingXl>
-    </Container>
-  );
+    return (
+        <Container>
+            <ContentWithPaddingXl>
+                <HeaderContainer>
+                    {subheading && <Subheading>{subheading}</Subheading>}
+                    <Heading>{heading}</Heading>
+                    {description && <Description>{description}</Description>}
+                </HeaderContainer>
+                <PlansContainer>
+                    {plans.map((plan, index) => (
+                        <Plan key={index} featured={plan.featured}>
+                            {!plan.featured && <div className="planHighlight" css={highlightGradientsCss[index % highlightGradientsCss.length]} />}
+                            <PlanHeader>
+                                <span className="name">{plan.name}</span>
+                                <span className="price">{plan.price}</span>
+                                <span className="duration">{plan.duration}</span>
+                            </PlanHeader>
+                            <PlanFeatures>
+                                <span className="feature mainFeature">{plan.mainFeature}</span>
+                                {plan.features.map((feature, index) => (
+                                    <span key={index} className="feature">
+                                        {feature}
+                                    </span>
+                                ))}
+                            </PlanFeatures>
+                            <PlanAction>
+                                <BuyNowButton css={!plan.featured && highlightGradientsCss[index]}>{primaryButtonText}</BuyNowButton>
+                            </PlanAction>
+                        </Plan>
+                    ))}
+                    <DecoratorBlob />
+                </PlansContainer>
+            </ContentWithPaddingXl>
+        </Container>
+    );
 };

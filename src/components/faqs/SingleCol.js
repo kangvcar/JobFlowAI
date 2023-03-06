@@ -40,8 +40,8 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 
 export default ({
   subheading = "FAQS",
-  heading = "You have Questions ?",
-  description = "And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  heading = "常见问题",
+  description = "提供了针对平台使用和职业发展的常见问题和解答，涵盖了平台功能、数据隐私、职业发展等多个方面的问题，可以帮助用户快速解决遇到的问题，提高使用体验。",
   faqs = [
     {
       question: "Is lunch provided free of cost ?",

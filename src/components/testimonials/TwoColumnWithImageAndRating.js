@@ -75,7 +75,7 @@ export default ({
   imageShadow = false,
   subheading = "Testimonials",
   heading = "Our Clients Love Us.",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.",
+  description = "JobFlow AI一直以来致力于为用户提供最优质的职业发展解决方案。我们的用户来自不同领域、不同行业，但都在用我们的平台获取职业规划、学习和求职方面的支持。以下是一些用户对我们平台的评价，希望这些真实的声音能为您提供更直观的了解。",
   textOnLeft = false,
   testimonials = [
     {

@@ -7,6 +7,7 @@ import TeamIllustrationSrc from "images/team-illustration-2.svg";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
 
 const Container = tw.div`relative`;
+// const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24 items-center`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24 items-center`;
 const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
 const ImageColumn = tw(Column)`md:w-6/12 flex-shrink-0 relative`;
@@ -59,16 +60,20 @@ export default ({
 
   const defaultSteps = [
     {
-      heading: "Register",
-      description: "Create an account with us using Google or Facebook."
+      heading: "登录并上传个人简历",
+      description: "用户在 JobFlow AI 平台注册账号并登录后，可以填写个人资料和上传个人简历PDF文件，以便平台了解用户的教育背景、工作经历、技能和成就等信息，为用户提供更个性化的职业服务。"
     },
     {
-      heading: "Download",
-      description: "Browse and Download the template that you like from the marketplace."
+      heading: "连接互联网平台并获取数据（可选）",
+      description: "用户可以连接各大互联网平台（如LinkedIn、Indeed等）获取个人数据，以便平台从多个数据源分析用户的职业历史、技能和兴趣等信息，并生成个性化的职业画像。"
     },
     {
-      heading: "Run",
-      description: "Follow the instructions to setup and customize the template to your needs."
+      heading: "生成专属职业画像",
+      description: "平台利用机器学习算法分析用户的职业历史、技能和兴趣等信息，生成个性化的职业画像，帮助用户了解自己的职业特征和潜力，并为用户提供符合其需求和兴趣的职业发展建议和支持。"
+    },
+    {
+      heading: "获得AI职业规划服务",
+      description: "基于用户的职业画像和职业规划目标，平台为用户提供个性化的AI职业规划服务，帮助用户制定职业规划方案、解决职业发展中的问题和挑战，以及发现更多的职业机会。"
     }
   ];
 

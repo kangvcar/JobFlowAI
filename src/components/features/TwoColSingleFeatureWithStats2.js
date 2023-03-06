@@ -62,16 +62,20 @@ export default ({
   //Change the statistics variable as you like, add or delete objects
   const defaultStatistics = [
     {
-      key: "Clients",
-      value: "2282+"
+      key: "注册用户",
+      value: "1280+"
     },
     {
-      key: "Projects",
+      key: "生成职业画像次数",
       value: "3891+"
     },
     {
-      key: "Awards",
-      value: "1000+"
+      key: "AI资讯服务次数",
+      value: "5230+"
+    },
+    {
+      key: "精品课程数量",
+      value: "50+"
     }
   ];
 
