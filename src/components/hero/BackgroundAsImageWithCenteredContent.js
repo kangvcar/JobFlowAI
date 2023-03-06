@@ -5,6 +5,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 
 import Header, { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
 
+
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none w-full`}
   ${DesktopNavLinks} ${NavLink}, ${LogoLink} {
@@ -44,18 +45,24 @@ export default () => {
             <NavLink href="#">
                 AI求职指导
             </NavLink>
-            <NavLink href="#">
+            <NavLink href="/course">
                 精品课程
             </NavLink>
             <NavLink href="#">
+                多数据源
+            </NavLink>
+            <NavLink href="/blog">
                 博客文章
             </NavLink>
-            <NavLink href="#">
+            <NavLink href="/about-us">
                 创始团队
+            </NavLink>
+            <NavLink href="/pricing">
+                价格
             </NavLink>
         </NavLinks>,
         <NavLinks key={2}>
-            <PrimaryLink href="/#">
+            <PrimaryLink href="/login">
                 登录
             </PrimaryLink>
         </NavLinks>

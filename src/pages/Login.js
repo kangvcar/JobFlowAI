@@ -56,7 +56,7 @@ const IllustrationImage = styled.div`
 export default ({
   logoLinkUrl = "#",
   illustrationImageSrc = illustration,
-  headingText = "Sign In To Treact",
+  headingText = "登录 JobFlow AI",
   socialButtons = [
     {
       iconImageSrc: googleIconImageSrc,
@@ -69,10 +69,10 @@ export default ({
       url: "https://twitter.com"
     }
   ],
-  submitButtonText = "Sign In",
+  submitButtonText = "登录",
   SubmitButtonIcon = LoginIcon,
   forgotPasswordUrl = "#",
-  signupUrl = "#",
+  signupUrl = "/signup",
 
 }) => (
   <AnimationRevealPage>
@@ -108,13 +108,13 @@ export default ({
               </Form>
               <p tw="mt-6 text-xs text-gray-600 text-center">
                 <a href={forgotPasswordUrl} tw="border-b border-gray-500 border-dotted">
-                  Forgot Password ?
+                  忘记密码 ?
                 </a>
               </p>
               <p tw="mt-8 text-sm text-gray-600 text-center">
-                Dont have an account?{" "}
+                还没有帐号?{" "}
                 <a href={signupUrl} tw="border-b border-gray-500 border-dotted">
-                  Sign Up
+                  注册
                 </a>
               </p>
             </FormContainer>

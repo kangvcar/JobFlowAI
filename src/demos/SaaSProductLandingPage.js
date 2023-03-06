@@ -9,7 +9,8 @@ import Features from "components/features/ThreeColWithSideImage.js";
 import MainFeature2 from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
 import FeatureWithSteps from "components/features/TwoColWithSteps.js";
 import FeatureWithStats2 from "components/features/TwoColSingleFeatureWithStats2.js";
-import Pricing from "components/pricing/ThreePlans.js";
+// import Pricing from "components/pricing/ThreePlans.js";
+import Pricing from "components/pricing/ThreePlansWithHalfPrimaryBackground.js";
 // import Testimonial from "components/testimonials/TwoColumnWithImageAndRating.js";
 import Testimonial from "components/testimonials/TwoColumnWithImage.js";
 import FAQ from "components/faqs/SingleCol.js";
@@ -100,28 +101,32 @@ export default () => {
                         <HighlightedText>合理灵活</HighlightedText>的定价方案
                     </>
                 }
+                description = "我们的定价方案基于对客户需求的深入了解和分析，结合平台的各项功能和服务，提供了三个定价方案，主要面向在校大学生、职场人士、初创企业。"
                 plans={[
                     {
                         name: "基础版",
-                        price: "¥69",
-                        duration: "每月",
-                        mainFeature: "适合在校大学生",
+                        price: ["¥828", "¥69/每月"],
+                        oldPrice: "¥948",
+                        description: "适合在校大学生",
                         features: ["AI职业规划", "职业画像分析", "智能职位匹配", "职业学习平台（限免试用期）"],
+                        url: "https://github.com/kangvcar/JobFlowAI"
                     },
                     {
                         name: "专业版",
-                        price: "¥129",
-                        duration: "每月",
-                        mainFeature: "适合职场人士",
+                        price: ["¥1548", "¥129/每月"],
+                        oldPrice: "¥1908",
+                        description: "适合职场人士",
                         features: ["AI职业规划", "职业画像分析", "职业学习平台（免费）", "AI求职辅导", "智能职位匹配", "职业社交网络"],
-                        featured: true,
+                        url: "https://github.com/kangvcar/JobFlowAI",
+                        featured: "最多人选择"
                     },
                     {
                         name: "企业版",
-                        price: "¥699",
-                        duration: "每月",
-                        mainFeature: "适合中小型企业和初创企业",
+                        price: ["¥8388", "¥699/每月"],
+                        oldPrice: "¥9588",
+                        description: "适合中小型企业和初创企业",
                         features: ["AI职业规划", "职业画像分析", "职业学习平台（免费）", "AI求职辅导", "智能职位匹配", "职业社交网络", "专属的人才招聘服务"],
+                        url: "https://github.com/kangvcar/JobFlowAI"
                     },
                 ]}
             />

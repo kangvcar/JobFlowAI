@@ -74,13 +74,13 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
     <NavLinks key={1}>
       <NavLink href="/#">职业画像</NavLink>
       <NavLink href="/#">AI求职指导</NavLink>
-      <NavLink href="/#">精品课程</NavLink>
+      <NavLink href="/course">精品课程</NavLink>
       <NavLink href="/#">多数据源</NavLink>
-      <NavLink href="/#">博客</NavLink>
-      <NavLink href="/#" tw="lg:ml-12!">
-        登录
-      </NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">注册</PrimaryLink>
+      <NavLink href="/blog">博客文章</NavLink>
+      <NavLink href="/about-us">创始团队</NavLink>
+      <NavLink href="/pricing">价格</NavLink>
+      <NavLink href="/login" tw="lg:ml-12!">登录</NavLink>
+      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/signup">注册</PrimaryLink>
     </NavLinks>
   ];
 

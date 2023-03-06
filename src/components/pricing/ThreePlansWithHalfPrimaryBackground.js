@@ -70,53 +70,36 @@ const WhiteBackgroundOverlay = tw.div`absolute inset-x-0 bottom-0 h-1/6 lg:h-1/3
 
 export default ({
   subheading = "",
-  heading = "Affordable Pricing",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  heading = "合理灵活的定价方案",
+  description = "我们的定价方案基于对客户需求的深入了解和分析，结合平台的各项功能和服务，提供了三个定价方案，主要面向在校大学生、职场人士、初创企业。",
   plans = null,
-  primaryButtonText = "Create Server"
+  primaryButtonText = "开始订阅"
 }) => {
   const defaultPlans = [
     {
-      name: "Personal",
-      price: ["$9", ".99/month"],
-      oldPrice: "$11.99",
-      description: "Perfect for when you want to host your personal blog or a hobby side project.",
-      features: ["2 Core Xeon CPU", "1 GB RAM", "30 GB SSD", "1 TB Transfer", "99.9% Uptime"],
-      url: "https://google.com"
+        name: "基础版",
+        price: ["¥828", "¥69/每月"],
+        oldPrice: "¥948",
+        description: "适合在校大学生",
+        features: ["AI职业规划", "职业画像分析", "智能职位匹配", "职业学习平台（限免试用期）"],
+        url: "https://github.com/kangvcar/JobFlowAI"
     },
     {
-      name: "Business",
-      price: ["$15", ".99/month"],
-      oldPrice: "$19.99",
-      description: "Perfect for hosting blogs with lots of traffic or heavy development projects",
-      features: [
-        "4 Core Xeon CPU",
-        "2 GB RAM",
-        "100 GB SSD",
-        "3 TB Transfer",
-        "99.9% Uptime",
-        "Free Domain & SSL",
-        "Free DNS Management"
-      ],
-      url: "https://google.com",
-      featured: "Most Popular"
+        name: "专业版",
+        price: ["¥1548", "¥129/每月"],
+        oldPrice: "¥1908",
+        description: "适合职场人士",
+        features: ["AI职业规划", "职业画像分析", "职业学习平台（免费）", "AI求职辅导", "智能职位匹配", "职业社交网络"],
+        url: "https://github.com/kangvcar/JobFlowAI",
+        featured: "最多人选择"
     },
     {
-      name: "Enterprise",
-      price: ["$25", ".99/month"],
-      oldPrice: "$29.99",
-      description: "Perfect for hosting production websites & API services with high traffic load",
-      features: [
-        "8 Core Xeon CPU",
-        "8 GB RAM",
-        "300 GB SSD",
-        "Unlimited Transfer",
-        "99.99% Uptime",
-        "Free Domain & SSL",
-        "Free DNS Management",
-        "Free Offsite Backup"
-      ],
-      url: "https://google.com"
+        name: "企业版",
+        price: ["¥8388", "¥699/每月"],
+        oldPrice: "¥9588",
+        description: "适合中小型企业和初创企业",
+        features: ["AI职业规划", "职业画像分析", "职业学习平台（免费）", "AI求职辅导", "智能职位匹配", "职业社交网络", "专属的人才招聘服务"],
+        url: "https://github.com/kangvcar/JobFlowAI"
     }
   ];
 

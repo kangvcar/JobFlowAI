@@ -40,10 +40,10 @@ export default () => {
           </LogoContainer>
           <LinksContainer>
             <Link href="#">Home</Link>
-            <Link href="#">创始团队</Link>
-            <Link href="#">联系我们</Link>
-            <Link href="#">博客文章</Link>
-            <Link href="#">项目发展</Link>
+            <Link href="/about-us">创始团队</Link>
+            <Link href="/contact-us">联系我们</Link>
+            <Link href="/blog">博客文章</Link>
+            <Link href="/event">项目发展</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
