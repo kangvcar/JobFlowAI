@@ -13,7 +13,6 @@ import  left from "images/1.png";
 import  right from "images/2.png";
 import  text from "images/text-right.png";
 
-
 const Container = tw(ContainerBase)`min-h-screen bg-primary-700 text-white font-medium flex justify-center -m-8`;
 const Content = tw.div`max-w-screen-xl m-0 sm:mx-20 sm:my-16 bg-white text-gray-900 shadow sm:rounded-lg flex justify-center flex-1`;
 const MainContainer = tw.div`lg:w-1/2 xl:w-5/12 p-6 sm:p-12`;
@@ -152,9 +151,9 @@ export default ({
 
 
 
-              <Form action="http://localhost:3000/">
-                <Input type="email" placeholder="输入邮箱号" />
-                <Input type="password" placeholder="输入密码" />
+              <Form action="/login" method="GET">
+                <Input type="email" placeholder="输入邮箱号" name="email"/>
+                <Input type="password" placeholder="输入密码" name="password"/>
                 <SubmitButton type="submit">
                   <SubmitButtonIcon className="icon" />
                   <span className="text">{submitButtonText}</span>

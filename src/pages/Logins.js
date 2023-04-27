@@ -11,13 +11,14 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-app.post("/login", (req, res) => {
+app.post("/loginaction", (req, res) => {
     const { email, password } = req.body;
-
+    console.log(email, password)
 });
 
-app.get("/login", (req, res) => {
+app.get("/loginaction", (req, res) => {
     const { email, password } = req.body;
+    console.log(email, password)
 
         req.session.loggedIn = true;
         res.send("登录成功!");
