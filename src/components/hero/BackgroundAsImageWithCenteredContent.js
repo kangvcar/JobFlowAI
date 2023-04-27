@@ -31,7 +31,7 @@ const NavbarWrapper = styled.div`
     left: -48px; /* 根据需要调整半圆的位置 */
     width: 60px; /* 半圆的宽度 */
     height: 100%; /* 半圆的高度 */
-    background: RGB(31, 10, 123); 
+    background: RGB(31, 10, 123);
     border-radius: 350% 50% 0 0;
   }
 `;
@@ -58,7 +58,7 @@ const StyledHeader = styled(Header)`
 //修改：修改了登录按钮的样式
 const PrimaryLink = tw(NavLink)`
 lg:mx-0
-px-6 py-2 rounded bg-purple-400 text-purple-500 
+px-6 py-2 rounded bg-purple-400 text-purple-500
 hocus:bg-purple-600 hocus:text-gray-200 focus:shadow-outline
 border-b-0 rounded-lg text-sm font-normal
 `;
@@ -66,8 +66,8 @@ border-b-0 rounded-lg text-sm font-normal
 //修改：删除了背景图片
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover h-screen min-h-144`}
- 
- 
+
+
 `;
 //修改：删除了灰色遮罩层
 const OpacityOverlay = tw.div`z-10 absolute inset-0  `;
@@ -89,7 +89,7 @@ px-4 flex flex-1 flex-col justify-center items-center relative z-10
 `;
 */
 //修改了按钮样式
-const PrimaryAction = tw.button`rounded-5xl w-full h-full px-2 py-1 mt-5 text-xs sm:text-3xl sm:mt-16 sm:px-8 sm:py-4 bg-gray-100  shadow transition duration-300 
+const PrimaryAction = tw.button`rounded-5xl w-full h-full px-2 py-1 mt-5 text-xs sm:text-3xl sm:mt-16 sm:px-8 sm:py-4 bg-gray-100  shadow transition duration-300
 bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:outline-none focus:shadow-outline border-solid border-8 border-yellow-500`;//这里添加了 border-solid、border-2 和 border-yellow-500 这三个样式，分别表示边框样式为实线、边框宽度为 2px、边框颜色为黄色（即（255, 188, 0））。
 
 
@@ -140,7 +140,7 @@ const Row2 = styled(Row)`
   justify-content: space-between;
    margin-top: 1rem;
    margin-bottom: 0;
-   
+
 `;
 //新增容器样式
 const Row3 = styled(Row)`
@@ -175,10 +175,10 @@ const Image2 = styled.div`
   ${tw`h-full `}
   background-image: url(${image3});
   width:74%;
-  background-size: contain; 
-  background-repeat: no-repeat;  
-  background-position: center;   
- 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
 
 `;
 
@@ -189,11 +189,11 @@ const Image3 = styled.div`
   background-size: cover;
   width:16%;
   height:66%;
-  background-size: contain; 
-  background-repeat: no-repeat;  
-  background-position: center; 
-  
- 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
 `;
 const Image4 = styled.div`
   ${tw` h-full`}
@@ -201,9 +201,9 @@ const Image4 = styled.div`
   background-size: cover;
   width:100%;
   height:80%;
-  background-size: contain; 
-  background-repeat: no-repeat;  
-  background-position: left  center; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left  center;
 margin-left:1.5rem;
 margin-top:1rem;
 `;
@@ -211,10 +211,10 @@ export default () => {
   const navLinks = [
     <NavbarWrapper>
       <NavLinks key={1}>
-        <CustomNavLink href="#" >
+        <CustomNavLink href="https://jobflowai.onrender.com/" >
           职业画像
         </CustomNavLink>
-        <CustomNavLink href="#">
+        <CustomNavLink href="https://jobflowai.onrender.com/">
           AI求职指导
         </CustomNavLink>
         <CustomNavLink href="/course">
@@ -252,9 +252,9 @@ export default () => {
         <Container1>
           <Col1>
             <BgImage>
-               <Row4>    
+               <Row4>
            <Image4></Image4>
-            </Row4> 
+            </Row4>
              </BgImage>
           </Col1>
           <Col2>
@@ -266,7 +266,7 @@ export default () => {
               <Image3 />
             </Row2>
             <Row3>
-              <PrimaryAction>生成职业画像</PrimaryAction>
+              <PrimaryAction><a href="https://jobflowai.onrender.com/">生成职业画像</a></PrimaryAction>
             </Row3>
           </Col2>
         </Container1>
