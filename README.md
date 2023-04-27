@@ -1,36 +1,68 @@
-# 🚀 JobFlow AI
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-🌟 JobFlow AI 全新上线 🌟
+## Available Script
 
-**JobFlow AI** 是一个强大的职业发展平台，利用先进的人工智能和机器学习算法，从社交媒体、职业网络和招聘网站等多个数据源收集和分析数据，为每个用户提供个性化的职业指导和求职推荐，帮助用户在快速变化的就业市场中保持竞争力，发现新的职业机会，实现职业发展的最大潜力。
+In the project directory, you can run:
 
-## Live
+### `yarn start`
 
-📌 [https://jobflowai.vercel.app](https://jobflowai.vercel.app)
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Features
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-- ✅ **个性化职业指导**：根据用户的职业阶段、兴趣和需求提供个性化职业建议。
-- ✅ **AI智能推荐**：基于人工智能算法，为用户提供精准的职业推荐和机会发现。
-- ✅ **优质学习资源**：整合高校精品课程，提供优质的职业培训和学习资源。
-- ✅ **数据安全保障**：采用高级加密技术和安全措施，保障用户数据的安全和机密性。
-- ✅ **多维度职业分析**：通过行业分析和趋势分析等多维度数据，帮助用户制定职业发展计划。
-- ✅ **职业测试评估**：提供职业测试和评估，帮助用户了解自己的职业兴趣和能力。
-- ✅ **职业社交网络**：为用户提供职业社交机会，拓展职业人脉和人际关系。
-- ✅ **实时职业动态**：关注行业动态和职业信息，为用户提供实时的职业资讯和建议。
-- ✅ **多平台接入**：支持多种终端和平台接入，让用户随时随地获得职业发展支持。
-- ✅ **专业咨询服务**：提供专业的职业咨询和指导服务，帮助用户解决职业问题和挑战。
+### `yarn test`
 
-<br>
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<img src="https://raw.githubusercontent.com/kangvcar/JobFlowAI/main/src/assets/images/screenshot.jpeg" alt="JobFlow AI Screenshot">
+### `yarn build`
 
-<br>
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Acknowledgements
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/kangvcar/JobFlowAI).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## License
+### `yarn eject`
 
-**JobFlow AI** is licensed under the MIT license — see the [LICENSE](./LICENSE.md) file for details.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
