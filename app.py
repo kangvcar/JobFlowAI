@@ -5,9 +5,11 @@ import os
 import openai
 import markdown
 
+key = os.getenv('api_key')
+
 app = Flask(__name__)
 # openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = "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"
+openai.api_key = key
 
 def to_markdown(text):
     return markdown.markdown(text)
@@ -21,10 +23,11 @@ def index():
 def upload():
     file = request.files['resume-file']
     # Save uploaded file to local directory
-    file.save('uploads/'+file.filename)
+    # file.save('uploads/'+file.filename)
     # Extract text from PDF file
     all_text = ""
-    with pdfplumber.open('uploads/'+file.filename) as pdf:
+    # with pdfplumber.open('uploads/'+file.filename) as pdf:
+    with pdfplumber.open(file) as pdf:
         for page in pdf.pages:
             text = page.extract_text(x_tolerance=5, y_tolerance=5, layout=False, x_density=7.25, y_density=13)
             all_text += text
@@ -33,8 +36,8 @@ def upload():
     print(all_text)
     print(len(all_text))
     # 把解析简历的文本保存到本地
-    with open('uploads/'+file.filename+'.txt', 'w') as f:
-        f.write(all_text)
+    # with open('uploads/'+file.filename+'.txt', 'w') as f:
+    #     f.write(all_text)
 
     # 简历内容 4000 字以内
     # + 爬虫各大平台的个人数据 -> 文本 sqlite / info.txt
